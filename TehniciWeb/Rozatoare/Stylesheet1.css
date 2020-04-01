@@ -1,0 +1,208 @@
+﻿body {
+    background-color:#333;
+}
+
+.titlu {
+    color: darkslategrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("https://d1wmhwtkksj55o.cloudfront.net/wp-content/uploads/2015/09/shutterstock_189974771.jpg");
+    background-size: 253px 180px;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-color:white;
+    height: 170px;
+    width: 100%;
+    position:page;
+    margin:0px;
+
+}
+
+.a:link{
+    color:darkmagenta;
+}
+
+.tabel {
+    width: 100%;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+}
+
+.th {
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 33%;
+    font-size: 80%;
+}
+
+
+.td{
+    text-align : center;
+    color:antiquewhite;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 33%;
+    font-size: 60%;
+}
+
+
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  align-content:center;
+}
+li {
+  float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color:antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li a:hover, .dropdown:hover .dropbtn {
+        background-color:teal;
+    }
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:darkslategrey;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+        color:antiquewhite;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+.dropdown-content a:hover {
+            background-color:black;
+        }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footer {
+    background-color: darkslategray;
+    text-align: center;
+    padding: 10px;
+    position: center;
+    float:left;
+    width: 100%;
+}
+
+.descriere {
+    padding: 10px;
+    margin: 0px;
+    margin-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Grande';
+    font-size: 20px;
+    min-height: 400px;
+}
+
+.subtitlu{
+    margin-bottom: 50px;
+    font-family:'Lucida Handwriting';
+    font-size: 32px;
+    text-align:right;
+    color:antiquewhite;
+    padding:10px;
+}
+
+.paragraf {
+    padding: 40px;
+    background-color: darkslategrey;
+    margin-left: 380px;
+    border: dotted;
+    color: bisque;
+
+}
+
+.disclaimer{
+    padding:10px;
+    margin:0px;
+    background-color:#333;
+    font-family:'Lucida Sans';
+    color:#c0ac90;
+    font-size:15px;
+    background-size:100px;
+    text-align:center;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.galerie {
+    margin: 2%;
+    border: 3px solid;
+    border-color: black;
+    background-color:white;
+    width: 300px;
+    height: 600px;
+    float:left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 16px;
+    padding: 1%;
+    border-radius:10px;
+    text-align:center;
+}
+
+    .galerie:hover {
+        border: 3px solid;
+        border-color: teal;
+    }
+
+    .galerie img {
+        width: auto;
+        height: 50%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+    }
+
+    .desc {
+        padding: 3%;
+        text-align: center;
+    }
+
+    .galerie button {
+        background-color: teal;
+        border-radius: 10px;
+        height: 8%;
+        width: 60%;
+        color: white;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 130%;
+        transition-property:all;
+        transition-duration: 0.25s;
+        transition-timing-function:ease;
+    }
+
+        .galerie button:hover {
+            background-color: #333;
+            width: 90%;
+            height: 10%;
+            font-size: 170%;
+        }
