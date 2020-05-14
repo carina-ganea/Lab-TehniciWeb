@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="first_js.js"></script>
+    <link rel="stylesheet" href="css_chic_chic.css"></link>
+    <title> Hai sa ne distram cu JavaScript! </title>
+</head>
+<body id="corp">
+    <p class="stil" id="p1"> Buna! Vom incerca sa afisam niste propozitii.</p>
+    <button id="first_func" onclick="incerc()" style="margin-bottom:30px"> Apasa-ma!</button> <br />
+    <button style="background-color:chartreuse; position:relative" onmouseover="dispari()" onmousemove="apari()" onclick="dispari()">
+        Daca te enerveaza culoarea asta, incearca sa ma apesi!
+    </button>
+    <p id="p3" class="stil" onclick="myfunction()" onkeydown="myOtherFunction()">Aici pot dubla ce este in butonul de mai sus!</p>
+    <button id="buton2" onclick="stilizeaza()" style="margin-top:20px; margin-bottom:20px"> Schimba stilul acestui buton!</button>
+    <div id="container">
+        <img id="animatie" src="kitty.png" style="position:absolute; height: 50px; width:50px" />
+    </div>
+    <button onclick="Animatie()" style="margin-top:20px"> Fa-o pe Hello Kitty sa se miste!</button>
+
+
+    <p id="place" class="stil">Aici apare lista de caini </p>
+    <button onclick="GET()"> Vezi caini</button>
+
+    <p class="stil">
+        Rasa: <input type="text" onclick="rasa()" oninput="hello('rasa')" />
+        Imagine: <input type="text" onclick="imagine()" oninput="hello('img')" />
+        <button onclick="POST()"> Adauga caine</button>
+    </p>
+
+    <p class="stil">
+        Id: <input type="text" oninput="identif(event)" />
+        Rasa: <input type="text" onclick="rasa()" oninput="hello('rasa')" />
+        Imagine: <input type="text" onclick="imagine()" oninput="hello('img')" />
+        <button onclick="PUT()">Actualizeaza caine</button>
+    </p>
+    <button onclick="DELETE()"> Sterge ultimul caine adaugat</button>
+
+    <input type="text" onkeydown="imaginenoua()"></input>
+
+</body>
+</html>

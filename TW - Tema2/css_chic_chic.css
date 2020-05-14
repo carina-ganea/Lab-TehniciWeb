@@ -1,0 +1,25 @@
+﻿body {
+    background-color:lightgrey;
+    font-family: 'Courier New';
+    font-size: 20px;
+}
+
+button{
+    background-color: lavanderblush;
+    color: cornflowerblue;
+    padding: 3px;
+    border-radius:4px;
+}
+
+#container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color:whitesmoke;
+}
+
+.stil{
+    background-color:lavender;
+    font-family: 'Century Schoolbook';
+    padding: 4px;
+}
